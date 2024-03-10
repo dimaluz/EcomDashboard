@@ -1,0 +1,27 @@
+.container{
+    background: var(--plate-color);
+    padding: 1rem;
+    border-radius: 10px;
+    display: flex;
+    gap: 30px;
+    cursor: pointer;
+    width: 100%;
+    border: var(--border-plate-color);
+    justify-content: center;
+    align-items: center;
+    transition: border 0.5s ease;
+}
+
+.texts{
+    display: flex;
+    flex-direction: column;
+    color: var(--text-color-inside-field);
+    gap: 20px;
+}
+
+.number{
+    font-size: 24px;
+    font-weight: 700;
+    font-family: "Helvetica";
+    color: var(--text-color);
+}

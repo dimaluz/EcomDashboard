@@ -1,0 +1,21 @@
+.container{
+    background: var(--plate-color);
+    padding: 1rem;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    cursor: pointer;
+    width: 100%;
+    height: 450px;
+    border: var(--border-plate-color);
+}
+
+.title{
+    /* margin-top: 1rem; */
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: var(--secondary-font-color);
+}

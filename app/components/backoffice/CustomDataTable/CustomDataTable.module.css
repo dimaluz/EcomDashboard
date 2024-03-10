@@ -1,0 +1,68 @@
+.container{
+    background: var(--plate-color);
+    padding: 1rem;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    min-height: 450px;
+    border: var(--border-plate-color);
+    margin-top: 1rem;
+}
+
+.title{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: var(--secondary-font-color);
+}
+
+.table{
+    width: 100%;
+}
+
+.table thead td{
+    padding: 1rem;
+    color: var(--text-color-inside-field);
+}
+
+.table tbody td{
+    padding: .5rem;
+}
+
+
+.pending button{
+    padding: 10px;
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    background: rgba(251, 230, 48, 0.3);
+    color: var(--header-color);
+}
+.delivered button{
+    padding: 10px;
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    background: rgba(89, 251, 48, 0.3);
+    color: var(--header-color);
+}
+
+.canceled button{
+    padding: 10px;
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    background: rgba(251, 68, 48, 0.3);
+    color: var(--header-color);
+}
+
+.pagination{
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 1rem;
+}

@@ -1,0 +1,16 @@
+.container{
+    display: flex;
+}
+
+.sidebar{
+    flex: 1;
+    border-right: var(--border-plate-color);
+}
+
+.content{
+    flex: 4;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
